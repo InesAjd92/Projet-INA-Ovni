@@ -1,0 +1,5 @@
+afcf_row.png;lignes
+afcf_col.png;colonnes
+graph_afc_1.png;Variables actives - Coordonnées - facteur 1 / 2 - Eviter les recouvrements
+graph_afc_2.png;Variables actives - Coordonnées - facteur 1 / 2 - sélection de 100 variables - Eviter les recouvrements
+graph_afc_3.png;Variables actives - Coordonnées - facteur 1 / 2 - Eviter les recouvrements

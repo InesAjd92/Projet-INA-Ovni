@@ -1,0 +1,1684 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.23.1017.0948                               -->
+<workbook original-version='18.1' source-build='2023.3.0 (20233.23.1017.0948)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Extrait corpus11_ovni+ (Connexions multiples)' inline='true' name='federated.0r57vmr1pu8w6q1cnzvqg1j81pez' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='corpus11_ovni+ (Connexions multiples)' name='hyper.19tgq181t70c9c1env1v605eb906'>
+            <connection authentication='auth-none' author-locale='fr_FR' class='hyper' dbname='C:/Users/UFR PHILLIA/Downloads/corpus11_ovni+ (Connexions multiples).hyper' default-settings='yes' server='' sslmode='' username='tableau_internal_user' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='hyper.19tgq181t70c9c1env1v605eb906' name='Extract' table='[Extract].[Extract]' type='table'>
+          <columns>
+            <column datatype='date' date-parse-format='yyyy-MM-' name='datdif' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='hyper.19tgq181t70c9c1env1v605eb906' name='Extract' table='[Extract].[Extract]' type='table'>
+          <columns>
+            <column datatype='date' date-parse-format='yyyy-MM-' name='datdif' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>no1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[no1]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>no1</remote-alias>
+            <ordinal>0</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>3396</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>base_label</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[base_label]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>base_label</remote-alias>
+            <ordinal>1</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>3</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>base</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[base]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>base</remote-alias>
+            <ordinal>2</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>5</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>base_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[base_id]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>base_id</remote-alias>
+            <ordinal>3</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>6</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ch</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ch]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>ch</remote-alias>
+            <ordinal>4</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>136</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ch_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ch_code]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>ch_code</remote-alias>
+            <ordinal>5</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>128</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>datdif</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[datdif]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>datdif</remote-alias>
+            <ordinal>6</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>datdifsec</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[datdifsec]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>datdifsec</remote-alias>
+            <ordinal>7</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>3396</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>liensom</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[liensom]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>liensom</remote-alias>
+            <ordinal>8</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1857</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>heure</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[heure]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>heure</remote-alias>
+            <ordinal>9</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <approx-count>2694</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>heuremin</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[heuremin]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>heuremin</remote-alias>
+            <ordinal>10</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>2694</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>duree</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[duree]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>duree</remote-alias>
+            <ordinal>11</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1944</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dureemin</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[dureemin]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>dureemin</remote-alias>
+            <ordinal>12</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1560</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ti</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ti]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>ti</remote-alias>
+            <ordinal>13</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>3273</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ticol</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ticol]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>ticol</remote-alias>
+            <ordinal>14</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1204</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tiprog</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tiprog]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>tiprog</remote-alias>
+            <ordinal>15</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1803</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>typdescr</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[typdescr]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>typdescr</remote-alias>
+            <ordinal>16</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>10</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>jour</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[jour]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>jour</remote-alias>
+            <ordinal>17</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>7</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>public</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[public]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>public</remote-alias>
+            <ordinal>18</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>16</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>chap</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[chap]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>chap</remote-alias>
+            <ordinal>19</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1183</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>som</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[som]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>som</remote-alias>
+            <ordinal>20</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>585</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>res</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[res]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>res</remote-alias>
+            <ordinal>21</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1589</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>resprod</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[resprod]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>resprod</remote-alias>
+            <ordinal>22</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1458</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>seq</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[seq]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>seq</remote-alias>
+            <ordinal>23</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>403</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>genre</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[genre]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>genre</remote-alias>
+            <ordinal>24</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>222</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>prod</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[prod]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>prod</remote-alias>
+            <ordinal>25</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1689</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>des</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[des]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>des</remote-alias>
+            <ordinal>26</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>823</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>da</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[da]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>da</remote-alias>
+            <ordinal>27</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>5</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gen</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gen]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>gen</remote-alias>
+            <ordinal>28</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>2550</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gens</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gens]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>gens</remote-alias>
+            <ordinal>29</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>220</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sp</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sp]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>sp</remote-alias>
+            <ordinal>30</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>109</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pays</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[pays]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>pays</remote-alias>
+            <ordinal>31</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>80</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lieu</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[lieu]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>lieu</remote-alias>
+            <ordinal>32</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>4</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>periode</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[periode]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>periode</remote-alias>
+            <ordinal>33</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mediamat</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mediamat]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>mediamat</remote-alias>
+            <ordinal>34</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>63</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>aud</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[aud]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>aud</remote-alias>
+            <ordinal>35</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>102</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>aud15</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[aud15]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>aud15</remote-alias>
+            <ordinal>36</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>99</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>audf</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[audf]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>audf</remote-alias>
+            <ordinal>37</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>124</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>audh</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[audh]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>audh</remote-alias>
+            <ordinal>38</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>96</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pdm</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[pdm]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>pdm</remote-alias>
+            <ordinal>39</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>295</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pdm15</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[pdm15]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>pdm15</remote-alias>
+            <ordinal>40</ordinal>
+            <family>corpus11_ovni</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>317</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>no</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[no]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>no</remote-alias>
+            <ordinal>41</ordinal>
+            <family>MotsClesCorpusOvni.txt</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>2545</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>de</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[de]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>de</remote-alias>
+            <ordinal>42</ordinal>
+            <family>MotsClesCorpusOvni.txt</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>2084</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='choisir un résumé existant' datatype='string' name='[Calculation_193091896166891523]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF ISNULL([res]) AND ISNULL([resprod]) THEN NULL&#13;&#10;ELSEIF ISNULL([res]) THEN [resprod]&#13;&#10;ELSEIF ISNULL([resprod]) THEN [res]&#13;&#10;ELSE [res]&#13;&#10;END' />
+      </column>
+      <column caption='choix res ou resprod' datatype='string' name='[Calculation_193091896168726532]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF ISNULL([res]) AND ISNULL([resprod]) THEN NULL&#13;&#10;ELSEIF ISNULL([res]) THEN [resprod]&#13;&#10;ELSEIF ISNULL([resprod]) THEN [res]&#13;&#10;ELSE [res]&#13;&#10;END' />
+      </column>
+      <column caption='keyword sans parenthese et que le premier' datatype='string' name='[Calculation_193091896178548741]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='REGEXP_EXTRACT([de], &apos;([^()]*)&apos;)' />
+      </column>
+      <column caption='Filtre par desc' datatype='string' name='[Calculation_696650629407948801]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF ISNULL([res]) AND ISNULL([resprod]) THEN &quot;Non&quot; ELSE &quot;Oui&quot; END' />
+      </column>
+      <column caption='Séparer les genre ' datatype='string' name='[Calculation_696650629425852419]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF CONTAINS([genre], &quot;,&quot;) THEN&#13;&#10;    LEFT([genre], FIND([genre], &quot;,&quot;) - 1)&#13;&#10;ELSE&#13;&#10;    [genre]&#13;&#10;END' />
+      </column>
+      <column datatype='string' name='[Extrait ]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[genre]' new-bin='true'>
+          <bin default-name='false' value='&quot;Adaptation&quot;'>
+            <value>&quot;Adaptation, Animation, Série&quot;</value>
+            <value>&quot;Adaptation, Série&quot;</value>
+            <value>&quot;Adaptation, Spectacle TV&quot;</value>
+            <value>&quot;Adaptation, Téléfilm&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Animation&quot;'>
+            <value>&quot;Animation&quot;</value>
+            <value>&quot;Animation, Adaptation, Série&quot;</value>
+            <value>&quot;Animation, Court métrage&quot;</value>
+            <value>&quot;Animation, Court métrage, Série&quot;</value>
+            <value>&quot;Animation, Magazine&quot;</value>
+            <value>&quot;Animation, Série&quot;</value>
+            <value>&quot;Animation, Série, Adaptation&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Brève&quot;'>
+            <value>&quot;Brève, Journal télévisé&quot;</value>
+            <value>&quot;Brève, Journal télévisé, Document à base d&apos;archives&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Court métrage&quot;'>
+            <value>&quot;Court métrage&quot;</value>
+            <value>&quot;Court métrage, Animation&quot;</value>
+            <value>&quot;Court métrage, Animation, Série&quot;</value>
+            <value>&quot;Court métrage, Animation, Série, Interlude&quot;</value>
+            <value>&quot;Court métrage, Interlude&quot;</value>
+            <value>&quot;Court métrage, Série&quot;</value>
+            <value>&quot;Court métrage, Téléfilm&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Création audiovisuell&quot;'>
+            <value>&quot;Création audiovisuelle&quot;</value>
+            <value>&quot;Création audiovisuelle, Documentaire&quot;</value>
+            <value>&quot;Création audiovisuelle, Magazine&quot;</value>
+            <value>&quot;Création audiovisuelle, Série&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Débat&quot;'>
+            <value>&quot;Débat, Magazine&quot;</value>
+            <value>&quot;Débat, Magazine, Interview entretien&quot;</value>
+            <value>&quot;Débat, Magazine, Reportage&quot;</value>
+            <value>&quot;Débat, Reportage, Magazine&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Document à base d&apos;archives&quot;'>
+            <value>&quot;Document à base d&apos;archives&quot;</value>
+            <value>&quot;Document à base d&apos;archives, Interview entretien, Magazine&quot;</value>
+            <value>&quot;Document à base d&apos;archives, Journal télévisé&quot;</value>
+            <value>&quot;Document à base d&apos;archives, Journal télévisé, Brève&quot;</value>
+            <value>&quot;Document à base d&apos;archives, Journal télévisé, Interview, Reportage&quot;</value>
+            <value>&quot;Document à base d&apos;archives, Journal télévisé, Reportage&quot;</value>
+            <value>&quot;Document à base d&apos;archives, Magazine&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Documentaire&quot;'>
+            <value>&quot;Documentaire&quot;</value>
+            <value>&quot;Documentaire, Adaptation&quot;</value>
+            <value>&quot;Documentaire, Document à base d&apos;archives&quot;</value>
+            <value>&quot;Documentaire, Document à base d&apos;archives, Interview entretien&quot;</value>
+            <value>&quot;Documentaire, Document à base d&apos;archives, Interview entretien, Série&quot;</value>
+            <value>&quot;Documentaire, Document à base d&apos;archives, Série&quot;</value>
+            <value>&quot;Documentaire, Interview entretien&quot;</value>
+            <value>&quot;Documentaire, Interview entretien, Récit portrait&quot;</value>
+            <value>&quot;Documentaire, Magazine&quot;</value>
+            <value>&quot;Documentaire, Récit portrait&quot;</value>
+            <value>&quot;Documentaire, Récit portrait, Série&quot;</value>
+            <value>&quot;Documentaire, Reconstitution&quot;</value>
+            <value>&quot;Documentaire, Série&quot;</value>
+            <value>&quot;Documentaire, Série, Document à base d&apos;archives&quot;</value>
+            <value>&quot;Documentaire, Témoignage, Document à base d&apos;archives&quot;</value>
+            <value>&quot;Documentaire, Témoignage, Série&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Extrait&quot;'>
+            <value>&quot;Extrait, Brève, Journal télévisé&quot;</value>
+            <value>&quot;Extrait, Journal télévisé&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Feuilleton&quot;'>
+            <value>&quot;Feuilleton&quot;</value>
+            <value>&quot;Feuilleton, Adaptation&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Interview entretien&quot;'>
+            <value>&quot;Interview entretien&quot;</value>
+            <value>&quot;Interview entretien, Brève, Journal télévisé&quot;</value>
+            <value>&quot;Interview entretien, Journal télévisé&quot;</value>
+            <value>&quot;Interview entretien, Journal télévisé, Brève&quot;</value>
+            <value>&quot;Interview entretien, Journal télévisé, Reportage&quot;</value>
+            <value>&quot;Interview entretien, Magazine&quot;</value>
+            <value>&quot;Interview entretien, Magazine, Débat&quot;</value>
+            <value>&quot;Interview entretien, Magazine, Document à base d&apos;archives&quot;</value>
+            <value>&quot;Interview entretien, Magazine, Reportage&quot;</value>
+            <value>&quot;Interview entretien, Reportage, Journal télévisé&quot;</value>
+            <value>&quot;Interview entretien, Reportage, Magazine&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Journal télévisé&quot;'>
+            <value>&quot;Journal télévisé&quot;</value>
+            <value>&quot;Journal télévisé, Animation&quot;</value>
+            <value>&quot;Journal télévisé, Bande annonce&quot;</value>
+            <value>&quot;Journal télévisé, Brève&quot;</value>
+            <value>&quot;Journal télévisé, Brève, Journal télévisé&quot;</value>
+            <value>&quot;Journal télévisé, Déclaration, Extrait&quot;</value>
+            <value>&quot;Journal télévisé, Extrait&quot;</value>
+            <value>&quot;Journal télévisé, Extrait, Interview entretien&quot;</value>
+            <value>&quot;Journal télévisé, Extrait, Reportage&quot;</value>
+            <value>&quot;Journal télévisé, Interview entretien&quot;</value>
+            <value>&quot;Journal télévisé, Interview entretien, Document à base d&apos;archives&quot;</value>
+            <value>&quot;Journal télévisé, Interview entretien, Reportage&quot;</value>
+            <value>&quot;Journal télévisé, Magazine&quot;</value>
+            <value>&quot;Journal télévisé, Plateau d&apos;analyse&quot;</value>
+            <value>&quot;Journal télévisé, Plateau en situation&quot;</value>
+            <value>&quot;Journal télévisé, Récit portrait&quot;</value>
+            <value>&quot;Journal télévisé, Récit portrait, Document à base d&apos;archives&quot;</value>
+            <value>&quot;Journal télévisé, Récit portrait, Interview entretien&quot;</value>
+            <value>&quot;Journal télévisé, Reportage&quot;</value>
+            <value>&quot;Journal télévisé, Reportage, Document à base d&apos;archives&quot;</value>
+            <value>&quot;Journal télévisé, Reportage, Interview&quot;</value>
+            <value>&quot;Journal télévisé, Reportage, Interview entretien&quot;</value>
+            <value>&quot;Journal télévisé, Reportage, Journal télévisé&quot;</value>
+            <value>&quot;Journal télévisé, Reportage, Micro trottoir&quot;</value>
+            <value>&quot;Journal télévisé, Reportage, Plateau en situation&quot;</value>
+            <value>&quot;Journal télévisé, Reportage, Témoignage&quot;</value>
+            <value>&quot;Journal télévisé, Rétrospective, Document à base d&apos;archives&quot;</value>
+            <value>&quot;Journal télévisé, Témoignage&quot;</value>
+            <value>&quot;Journal télévisé, Tout images&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Long métrage&quot;'>
+            <value>&quot;Long métrage&quot;</value>
+            <value>&quot;Long métrage, Animation&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Magazine&quot;'>
+            <value>&quot;Magazine&quot;</value>
+            <value>&quot;Magazine, Animation&quot;</value>
+            <value>&quot;Magazine, Bande annonce&quot;</value>
+            <value>&quot;Magazine, Best of&quot;</value>
+            <value>&quot;Magazine, Brève&quot;</value>
+            <value>&quot;Magazine, Chronique&quot;</value>
+            <value>&quot;Magazine, Court métrage&quot;</value>
+            <value>&quot;Magazine, Débat&quot;</value>
+            <value>&quot;Magazine, Débat, Best of&quot;</value>
+            <value>&quot;Magazine, Débat, Interview entretien&quot;</value>
+            <value>&quot;Magazine, Débat, Reportage&quot;</value>
+            <value>&quot;Magazine, Débat, Reportage, Interview entretien&quot;</value>
+            <value>&quot;Magazine, Document à base d&apos;archives&quot;</value>
+            <value>&quot;Magazine, Documentaire&quot;</value>
+            <value>&quot;Magazine, Extrait&quot;</value>
+            <value>&quot;Magazine, Interview entretien&quot;</value>
+            <value>&quot;Magazine, Interview entretien, Court métrage&quot;</value>
+            <value>&quot;Magazine, Interview entretien, Débat&quot;</value>
+            <value>&quot;Magazine, Interview entretien, Document à base d&apos;archives&quot;</value>
+            <value>&quot;Magazine, Interview entretien, Extrait&quot;</value>
+            <value>&quot;Magazine, Interview entretien, Oeuvre enregistrée en studio&quot;</value>
+            <value>&quot;Magazine, Interview entretien, Reportage&quot;</value>
+            <value>&quot;Magazine, Jeu&quot;</value>
+            <value>&quot;Magazine, Journal télévisé&quot;</value>
+            <value>&quot;Magazine, Micro trottoir&quot;</value>
+            <value>&quot;Magazine, Plateau d&apos;analyse, Reportage&quot;</value>
+            <value>&quot;Magazine, Programme à base de clips&quot;</value>
+            <value>&quot;Magazine, Programme à base de clips, Jeu&quot;</value>
+            <value>&quot;Magazine, Réalisation dans un lieu public&quot;</value>
+            <value>&quot;Magazine, Reconstitution&quot;</value>
+            <value>&quot;Magazine, Reconstitution, Témoignage&quot;</value>
+            <value>&quot;Magazine, Reportage&quot;</value>
+            <value>&quot;Magazine, Reportage, Débat&quot;</value>
+            <value>&quot;Magazine, Reportage, Document à base d&apos;archives&quot;</value>
+            <value>&quot;Magazine, Reportage, Interview entretien&quot;</value>
+            <value>&quot;Magazine, Reportage, Interview entretien, Best of&quot;</value>
+            <value>&quot;Magazine, Reportage, Interview entretien, Document à base d&apos;archives&quot;</value>
+            <value>&quot;Magazine, Reportage, Récit portrait&quot;</value>
+            <value>&quot;Magazine, Reportage, Reconstitution&quot;</value>
+            <value>&quot;Magazine, Reportage, Tout images&quot;</value>
+            <value>&quot;Magazine, Retransmission&quot;</value>
+            <value>&quot;Magazine, Rétrospective&quot;</value>
+            <value>&quot;Magazine, Sketch&quot;</value>
+            <value>&quot;Magazine, Sketch, Document à base d&apos;archives, Interview entretien&quot;</value>
+            <value>&quot;Magazine, Spectacle TV, Sketch&quot;</value>
+            <value>&quot;Magazine, Télé achat&quot;</value>
+            <value>&quot;Magazine, Tout images&quot;</value>
+            <value>&quot;Magazine, Tranche horaire&quot;</value>
+            <value>&quot;Magazine, Vidéo clip&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Micro trottoir&quot;'>
+            <value>&quot;Micro trottoir, Journal télévisé&quot;</value>
+            <value>&quot;Micro trottoir, Journal télévisé, Reportage&quot;</value>
+            <value>&quot;Micro trottoir, Plateau en situation, Interview entretien, Journal télévisé, Reportage&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Récit portrait&quot;'>
+            <value>&quot;Récit portrait, Best of, Documentaire, Interview entretien&quot;</value>
+            <value>&quot;Récit portrait, Journal télévisé, Interview entretien&quot;</value>
+            <value>&quot;Récit portrait, Reportage, Journal télévisé, Interview entretien&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Reportage&quot;'>
+            <value>&quot;Reportage, Débat, Magazine&quot;</value>
+            <value>&quot;Reportage, Document à base d&apos;archives, Journal télévisé&quot;</value>
+            <value>&quot;Reportage, Interview entretien, Journal télévisé&quot;</value>
+            <value>&quot;Reportage, Interview entretien, Magazine&quot;</value>
+            <value>&quot;Reportage, Journal télévisé&quot;</value>
+            <value>&quot;Reportage, Journal télévisé, Document à base d&apos;archives&quot;</value>
+            <value>&quot;Reportage, Journal télévisé, Interview&quot;</value>
+            <value>&quot;Reportage, Magazine&quot;</value>
+            <value>&quot;Reportage, Magazine, Débat&quot;</value>
+            <value>&quot;Reportage, Magazine, Interview entretien&quot;</value>
+            <value>&quot;Reportage, Magazine, Interview entretien, Extrait&quot;</value>
+            <value>&quot;Reportage, Magazine, Interview entretien, Extrait, Document à base d&apos;archives&quot;</value>
+            <value>&quot;Reportage, Plateau en situation, Journal télévisé&quot;</value>
+            <value>&quot;Reportage, Plateau en situation, Journal télévisé, Interview entretien&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Retrospective&quot;'>
+            <value>&quot;Rétrospective, Animation, Journal télévisé&quot;</value>
+            <value>&quot;Rétrospective, Journal télévisé&quot;</value>
+          </bin>
+          <bin default-name='true' value='&quot;Série, Série, Adaptation, Série, Adaptation, Animation et 4 en plus&quot;'>
+            <value>&quot;Série&quot;</value>
+            <value>&quot;Série, Adaptation&quot;</value>
+            <value>&quot;Série, Adaptation, Animation&quot;</value>
+            <value>&quot;Série, Animation&quot;</value>
+            <value>&quot;Série, Animation, Adaptation&quot;</value>
+            <value>&quot;Série, Animation, Série&quot;</value>
+            <value>&quot;Série, Téléfilm&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Téléfilm&quot;'>
+            <value>&quot;Téléfilm&quot;</value>
+            <value>&quot;Téléfilm, Animation&quot;</value>
+            <value>&quot;Téléfilm, Série&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Témoignage&quot;'>
+            <value>&quot;Témoignage, Journal télévisé, Reportage&quot;</value>
+            <value>&quot;Témoignage, Reportage, Journal télévisé&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Tranche horaire&quot;'>
+            <value>&quot;Tranche horaire&quot;</value>
+            <value>&quot;Tranche horaire, Adaptation&quot;</value>
+            <value>&quot;Tranche horaire, Animation&quot;</value>
+            <value>&quot;Tranche horaire, Court métrage&quot;</value>
+            <value>&quot;Tranche horaire, Magazine&quot;</value>
+            <value>&quot;Tranche horaire, Magazine, Débat&quot;</value>
+            <value>&quot;Tranche horaire, Série&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='string' name='[Interview ]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[genre]' new-bin='true'>
+          <bin default-name='true' value='&quot;Journal télévisé, Journal télévisé, Animation, Journal télévisé, Bande annonce et 26 en plus&quot;'>
+            <value>&quot;Journal télévisé&quot;</value>
+            <value>&quot;Journal télévisé, Animation&quot;</value>
+            <value>&quot;Journal télévisé, Bande annonce&quot;</value>
+            <value>&quot;Journal télévisé, Brève&quot;</value>
+            <value>&quot;Journal télévisé, Brève, Journal télévisé&quot;</value>
+            <value>&quot;Journal télévisé, Déclaration, Extrait&quot;</value>
+            <value>&quot;Journal télévisé, Extrait&quot;</value>
+            <value>&quot;Journal télévisé, Extrait, Interview entretien&quot;</value>
+            <value>&quot;Journal télévisé, Extrait, Reportage&quot;</value>
+            <value>&quot;Journal télévisé, Interview entretien&quot;</value>
+            <value>&quot;Journal télévisé, Interview entretien, Document à base d&apos;archives&quot;</value>
+            <value>&quot;Journal télévisé, Interview entretien, Reportage&quot;</value>
+            <value>&quot;Journal télévisé, Magazine&quot;</value>
+            <value>&quot;Journal télévisé, Plateau d&apos;analyse&quot;</value>
+            <value>&quot;Journal télévisé, Plateau en situation&quot;</value>
+            <value>&quot;Journal télévisé, Récit portrait&quot;</value>
+            <value>&quot;Journal télévisé, Récit portrait, Document à base d&apos;archives&quot;</value>
+            <value>&quot;Journal télévisé, Récit portrait, Interview entretien&quot;</value>
+            <value>&quot;Journal télévisé, Reportage&quot;</value>
+            <value>&quot;Journal télévisé, Reportage, Document à base d&apos;archives&quot;</value>
+            <value>&quot;Journal télévisé, Reportage, Interview&quot;</value>
+            <value>&quot;Journal télévisé, Reportage, Interview entretien&quot;</value>
+            <value>&quot;Journal télévisé, Reportage, Journal télévisé&quot;</value>
+            <value>&quot;Journal télévisé, Reportage, Micro trottoir&quot;</value>
+            <value>&quot;Journal télévisé, Reportage, Plateau en situation&quot;</value>
+            <value>&quot;Journal télévisé, Reportage, Témoignage&quot;</value>
+            <value>&quot;Journal télévisé, Rétrospective, Document à base d&apos;archives&quot;</value>
+            <value>&quot;Journal télévisé, Témoignage&quot;</value>
+            <value>&quot;Journal télévisé, Tout images&quot;</value>
+          </bin>
+          <bin default-name='true' value='&quot;Magazine, Magazine, Animation, Magazine, Bande annonce et 46 en plus&quot;'>
+            <value>&quot;Magazine&quot;</value>
+            <value>&quot;Magazine, Animation&quot;</value>
+            <value>&quot;Magazine, Bande annonce&quot;</value>
+            <value>&quot;Magazine, Best of&quot;</value>
+            <value>&quot;Magazine, Brève&quot;</value>
+            <value>&quot;Magazine, Chronique&quot;</value>
+            <value>&quot;Magazine, Court métrage&quot;</value>
+            <value>&quot;Magazine, Débat&quot;</value>
+            <value>&quot;Magazine, Débat, Best of&quot;</value>
+            <value>&quot;Magazine, Débat, Interview entretien&quot;</value>
+            <value>&quot;Magazine, Débat, Reportage&quot;</value>
+            <value>&quot;Magazine, Débat, Reportage, Interview entretien&quot;</value>
+            <value>&quot;Magazine, Document à base d&apos;archives&quot;</value>
+            <value>&quot;Magazine, Documentaire&quot;</value>
+            <value>&quot;Magazine, Extrait&quot;</value>
+            <value>&quot;Magazine, Interview entretien&quot;</value>
+            <value>&quot;Magazine, Interview entretien, Court métrage&quot;</value>
+            <value>&quot;Magazine, Interview entretien, Débat&quot;</value>
+            <value>&quot;Magazine, Interview entretien, Document à base d&apos;archives&quot;</value>
+            <value>&quot;Magazine, Interview entretien, Extrait&quot;</value>
+            <value>&quot;Magazine, Interview entretien, Oeuvre enregistrée en studio&quot;</value>
+            <value>&quot;Magazine, Interview entretien, Reportage&quot;</value>
+            <value>&quot;Magazine, Jeu&quot;</value>
+            <value>&quot;Magazine, Journal télévisé&quot;</value>
+            <value>&quot;Magazine, Micro trottoir&quot;</value>
+            <value>&quot;Magazine, Plateau d&apos;analyse, Reportage&quot;</value>
+            <value>&quot;Magazine, Programme à base de clips&quot;</value>
+            <value>&quot;Magazine, Programme à base de clips, Jeu&quot;</value>
+            <value>&quot;Magazine, Réalisation dans un lieu public&quot;</value>
+            <value>&quot;Magazine, Reconstitution&quot;</value>
+            <value>&quot;Magazine, Reconstitution, Témoignage&quot;</value>
+            <value>&quot;Magazine, Reportage&quot;</value>
+            <value>&quot;Magazine, Reportage, Débat&quot;</value>
+            <value>&quot;Magazine, Reportage, Document à base d&apos;archives&quot;</value>
+            <value>&quot;Magazine, Reportage, Interview entretien&quot;</value>
+            <value>&quot;Magazine, Reportage, Interview entretien, Best of&quot;</value>
+            <value>&quot;Magazine, Reportage, Interview entretien, Document à base d&apos;archives&quot;</value>
+            <value>&quot;Magazine, Reportage, Récit portrait&quot;</value>
+            <value>&quot;Magazine, Reportage, Reconstitution&quot;</value>
+            <value>&quot;Magazine, Reportage, Tout images&quot;</value>
+            <value>&quot;Magazine, Retransmission&quot;</value>
+            <value>&quot;Magazine, Rétrospective&quot;</value>
+            <value>&quot;Magazine, Sketch&quot;</value>
+            <value>&quot;Magazine, Sketch, Document à base d&apos;archives, Interview entretien&quot;</value>
+            <value>&quot;Magazine, Spectacle TV, Sketch&quot;</value>
+            <value>&quot;Magazine, Télé achat&quot;</value>
+            <value>&quot;Magazine, Tout images&quot;</value>
+            <value>&quot;Magazine, Tranche horaire&quot;</value>
+            <value>&quot;Magazine, Vidéo clip&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column caption='Séparer les mediamat' datatype='string' name='[Séparer les genre  (copie)_193091896165081088]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF CONTAINS([mediamat], &quot;,&quot;) THEN&#13;&#10;    LEFT([mediamat], FIND([mediamat], &quot;,&quot;) - 1)&#13;&#10;ELSE&#13;&#10;    [mediamat]&#13;&#10;END' />
+      </column>
+      <column caption='séparer les public' datatype='string' name='[Séparer les genre  (copie)_193091896165986306]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF CONTAINS([public], &quot;,&quot;) THEN&#13;&#10;    LEFT([public], FIND([public], &quot;,&quot;) - 1)&#13;&#10;ELSE&#13;&#10;    [public]&#13;&#10;END' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Extract' datatype='table' name='[__tableau_internal_object_id__].[Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707]' role='measure' type='quantitative' />
+      <column caption='Aud15' datatype='string' name='[aud15]' role='dimension' type='nominal' />
+      <column caption='Aud' datatype='string' name='[aud]' role='dimension' type='nominal' />
+      <column caption='Audf' datatype='string' name='[audf]' role='dimension' type='nominal' />
+      <column caption='Audh' datatype='string' name='[audh]' role='dimension' type='nominal' />
+      <column caption='Base' datatype='string' name='[base]' role='dimension' type='nominal' />
+      <column caption='Base Id' datatype='string' name='[base_id]' role='dimension' type='nominal' />
+      <column caption='Base Label' datatype='string' name='[base_label]' role='dimension' type='nominal' />
+      <column caption='Ch' datatype='string' name='[ch]' role='dimension' type='nominal' />
+      <column caption='Ch Code' datatype='string' name='[ch_code]' role='dimension' type='nominal' />
+      <column caption='Chap' datatype='string' name='[chap]' role='dimension' type='nominal' />
+      <column caption='Da' datatype='string' name='[da]' role='dimension' type='nominal' />
+      <column caption='Datdif' datatype='date' datatype-customized='true' name='[datdif]' role='dimension' type='ordinal' />
+      <column caption='Datdifsec' datatype='string' name='[datdifsec]' role='dimension' type='nominal' />
+      <column caption='De' datatype='string' name='[de]' role='dimension' type='nominal' />
+      <column caption='Des' datatype='string' name='[des]' role='dimension' type='nominal' />
+      <column caption='Duree' datatype='string' name='[duree]' role='dimension' type='nominal' />
+      <column caption='Dureemin' datatype='string' name='[dureemin]' role='dimension' type='nominal' />
+      <column caption='Gen' datatype='string' name='[gen]' role='dimension' type='nominal' />
+      <column caption='Genre' datatype='string' name='[genre]' role='dimension' type='nominal' />
+      <column caption='Gens' datatype='string' name='[gens]' role='dimension' type='nominal' />
+      <column caption='Heure' datatype='datetime' name='[heure]' role='dimension' type='ordinal' />
+      <column caption='Heuremin' datatype='string' name='[heuremin]' role='dimension' type='nominal' />
+      <column caption='Jour' datatype='string' name='[jour]' role='dimension' type='nominal' />
+      <column caption='Liensom' datatype='string' name='[liensom]' role='dimension' type='nominal' />
+      <column caption='Lieu' datatype='string' name='[lieu]' role='dimension' type='nominal' />
+      <column caption='Mediamat' datatype='string' name='[mediamat]' role='dimension' type='nominal' />
+      <column caption='Notice' datatype='string' name='[no1]' role='dimension' type='nominal' />
+      <column caption='No' datatype='string' name='[no]' role='dimension' type='nominal' />
+      <column caption='Pays' datatype='string' name='[pays]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Pdm15' datatype='string' name='[pdm15]' role='dimension' type='nominal' />
+      <column caption='Pdm' datatype='string' name='[pdm]' role='dimension' type='nominal' />
+      <column caption='Periode' datatype='string' name='[periode]' role='dimension' type='nominal' />
+      <column caption='Prod' datatype='string' name='[prod]' role='dimension' type='nominal' />
+      <column caption='Public' datatype='string' name='[public]' role='dimension' type='nominal' />
+      <column caption='Res' datatype='string' name='[res]' role='dimension' type='nominal' />
+      <column caption='Resprod' datatype='string' name='[resprod]' role='dimension' type='nominal' />
+      <column caption='Seq' datatype='string' name='[seq]' role='dimension' type='nominal' />
+      <column caption='Som' datatype='string' name='[som]' role='dimension' type='nominal' />
+      <column caption='Sp' datatype='string' name='[sp]' role='dimension' type='nominal' />
+      <column caption='Ti' datatype='string' name='[ti]' role='dimension' type='nominal' />
+      <column caption='Ticol' datatype='string' name='[ticol]' role='dimension' type='nominal' />
+      <column caption='Tiprog' datatype='string' name='[tiprog]' role='dimension' type='nominal' />
+      <column caption='Typdescr' datatype='string' name='[typdescr]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;FR&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Extract' id='Extract (Extract.Extract)_6627857D238E4BC6B82F6510641D1707'>
+            <properties context=''>
+              <relation connection='hyper.19tgq181t70c9c1env1v605eb906' name='Extract' table='[Extract].[Extract]' type='table'>
+                <columns>
+                  <column datatype='date' date-parse-format='yyyy-MM-' name='datdif' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Filtre ovni extraterrestre + rech et tem'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Extrait corpus11_ovni+ (Connexions multiples)' name='federated.0r57vmr1pu8w6q1cnzvqg1j81pez' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0r57vmr1pu8w6q1cnzvqg1j81pez'>
+            <column caption='Filtre par desc' datatype='string' name='[Calculation_696650629407948801]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF ISNULL([res]) AND ISNULL([resprod]) THEN &quot;Non&quot; ELSE &quot;Oui&quot; END' />
+            </column>
+            <column caption='Ch' datatype='string' name='[ch]' role='dimension' type='nominal' />
+            <column caption='Datdif' datatype='date' datatype-customized='true' name='[datdif]' role='dimension' type='ordinal' />
+            <column caption='De' datatype='string' name='[de]' role='dimension' type='nominal' />
+            <column caption='Notice' datatype='string' name='[no1]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_696650629407948801]' derivation='None' name='[none:Calculation_696650629407948801:nk]' pivot='key' type='nominal' />
+            <column-instance column='[ch]' derivation='None' name='[none:ch:nk]' pivot='key' type='nominal' />
+            <column-instance column='[de]' derivation='None' name='[none:de:nk]' pivot='key' type='nominal' />
+            <column-instance column='[no1]' derivation='None' name='[none:no1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[res]' derivation='None' name='[none:res:nk]' pivot='key' type='nominal' />
+            <column-instance column='[resprod]' derivation='None' name='[none:resprod:nk]' pivot='key' type='nominal' />
+            <column caption='Res' datatype='string' name='[res]' role='dimension' type='nominal' />
+            <column caption='Resprod' datatype='string' name='[resprod]' role='dimension' type='nominal' />
+            <column-instance column='[datdif]' derivation='Year' name='[yr:datdif:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:Calculation_696650629407948801:nk]' filter-group='4'>
+            <groupfilter function='member' level='[none:Calculation_696650629407948801:nk]' member='&quot;Oui&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:ch:nk]'>
+            <groupfilter function='level-members' level='[none:ch:nk]' />
+          </filter>
+          <filter class='categorical' column='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:de:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:de:nk]' member='&quot;extraterrestre&quot;' />
+              <groupfilter function='member' level='[none:de:nk]' member='&quot;ovni&quot;' />
+              <groupfilter function='member' level='[none:de:nk]' member='&quot;recherche scientifique&quot;' />
+              <groupfilter function='member' level='[none:de:nk]' member='&quot;témoignage&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[yr:datdif:ok]' filter-group='3'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[yr:datdif:ok]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1954' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1958' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1965' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1966' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1967' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1968' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1969' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1971' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1972' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1973' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1974' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1975' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1976' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1977' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1978' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1979' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1980' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1981' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1982' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1983' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1984' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1985' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1986' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1987' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1988' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1989' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1990' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1991' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1992' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1993' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:de:nk]</column>
+            <column>[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[yr:datdif:ok]</column>
+            <column>[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:Calculation_696650629407948801:nk]</column>
+            <column>[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:ch:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Polygon' />
+          </pane>
+        </panes>
+        <rows>([federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:no1:nk] / ([federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:de:nk] / ([federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:resprod:nk] / ([federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:res:nk] / [federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:ch:nk]))))</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{7F95400A-4C7A-4412-AF32-6AA0332BE04D}' />
+    </worksheet>
+    <worksheet name='Genre et notice, filtre minimum 100 '>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Extrait corpus11_ovni+ (Connexions multiples)' name='federated.0r57vmr1pu8w6q1cnzvqg1j81pez' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0r57vmr1pu8w6q1cnzvqg1j81pez'>
+            <column caption='Séparer les genre ' datatype='string' name='[Calculation_696650629425852419]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF CONTAINS([genre], &quot;,&quot;) THEN&#13;&#10;    LEFT([genre], FIND([genre], &quot;,&quot;) - 1)&#13;&#10;ELSE&#13;&#10;    [genre]&#13;&#10;END' />
+            </column>
+            <column-instance column='[no1]' derivation='Count' name='[cnt:no1:qk]' pivot='key' type='quantitative' />
+            <column caption='Genre' datatype='string' name='[genre]' role='dimension' type='nominal' />
+            <column caption='Notice' datatype='string' name='[no1]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_696650629425852419]' derivation='None' name='[none:Calculation_696650629425852419:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:Calculation_696650629425852419:nk]'>
+            <groupfilter expression='COUNT([no1]) &gt;= 100' function='filter' user:ui-marker='filter-by'>
+              <groupfilter function='level-members' level='[none:Calculation_696650629425852419:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:Calculation_696650629425852419:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[cnt:no1:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:Calculation_696650629425852419:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:Calculation_696650629425852419:nk]</rows>
+        <cols>[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[cnt:no1:qk]</cols>
+      </table>
+      <simple-id uuid='{666FCD0F-FB65-4EEE-B992-109F01702AAF}' />
+    </worksheet>
+    <worksheet name='Notice recherche ovni et ext'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Extrait corpus11_ovni+ (Connexions multiples)' name='federated.0r57vmr1pu8w6q1cnzvqg1j81pez' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0r57vmr1pu8w6q1cnzvqg1j81pez'>
+            <column caption='Filtre par desc' datatype='string' name='[Calculation_696650629407948801]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF ISNULL([res]) AND ISNULL([resprod]) THEN &quot;Non&quot; ELSE &quot;Oui&quot; END' />
+            </column>
+            <column caption='Datdif' datatype='date' datatype-customized='true' name='[datdif]' role='dimension' type='ordinal' />
+            <column caption='De' datatype='string' name='[de]' role='dimension' type='nominal' />
+            <column caption='Duree' datatype='string' name='[duree]' role='dimension' type='nominal' />
+            <column caption='Notice' datatype='string' name='[no1]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_696650629407948801]' derivation='None' name='[none:Calculation_696650629407948801:nk]' pivot='key' type='nominal' />
+            <column-instance column='[de]' derivation='None' name='[none:de:nk]' pivot='key' type='nominal' />
+            <column-instance column='[duree]' derivation='None' name='[none:duree:nk]' pivot='key' type='nominal' />
+            <column-instance column='[no1]' derivation='None' name='[none:no1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[res]' derivation='None' name='[none:res:nk]' pivot='key' type='nominal' />
+            <column-instance column='[resprod]' derivation='None' name='[none:resprod:nk]' pivot='key' type='nominal' />
+            <column-instance column='[typdescr]' derivation='None' name='[none:typdescr:nk]' pivot='key' type='nominal' />
+            <column caption='Res' datatype='string' name='[res]' role='dimension' type='nominal' />
+            <column caption='Resprod' datatype='string' name='[resprod]' role='dimension' type='nominal' />
+            <column caption='Typdescr' datatype='string' name='[typdescr]' role='dimension' type='nominal' />
+            <column-instance column='[datdif]' derivation='Year' name='[yr:datdif:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:Calculation_696650629407948801:nk]' filter-group='4'>
+            <groupfilter function='member' level='[none:Calculation_696650629407948801:nk]' member='&quot;Oui&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:de:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:de:nk]' member='&quot;extraterrestre&quot;' />
+              <groupfilter function='member' level='[none:de:nk]' member='&quot;ovni&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:no1:nk]'>
+            <groupfilter function='level-members' level='[none:no1:nk]' user:ui-manual-selection='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[yr:datdif:ok]' filter-group='3'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[yr:datdif:ok]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1954' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1958' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1965' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1966' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1967' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1968' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1969' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1971' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1972' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1973' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1974' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1975' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1976' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1977' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1978' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1979' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1980' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1981' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1982' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1983' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1984' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1985' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1986' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1987' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1988' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1989' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1990' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1991' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1992' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1993' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[yr:datdif:ok]</column>
+            <column>[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:no1:nk]</column>
+            <column>[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:de:nk]</column>
+            <column>[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:Calculation_696650629407948801:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:no1:nk] / ([federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:typdescr:nk] / ([federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:duree:nk] / ([federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:res:nk] / [federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:resprod:nk]))))</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{5C0535B3-8D44-4B39-9C67-734D68BB100B}' />
+    </worksheet>
+    <worksheet name='Notice recherche scientifique et témoignage'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Extrait corpus11_ovni+ (Connexions multiples)' name='federated.0r57vmr1pu8w6q1cnzvqg1j81pez' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0r57vmr1pu8w6q1cnzvqg1j81pez'>
+            <column caption='Filtre par desc' datatype='string' name='[Calculation_696650629407948801]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF ISNULL([res]) AND ISNULL([resprod]) THEN &quot;Non&quot; ELSE &quot;Oui&quot; END' />
+            </column>
+            <column caption='Datdif' datatype='date' datatype-customized='true' name='[datdif]' role='dimension' type='ordinal' />
+            <column caption='De' datatype='string' name='[de]' role='dimension' type='nominal' />
+            <column caption='Duree' datatype='string' name='[duree]' role='dimension' type='nominal' />
+            <column caption='Notice' datatype='string' name='[no1]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_696650629407948801]' derivation='None' name='[none:Calculation_696650629407948801:nk]' pivot='key' type='nominal' />
+            <column-instance column='[de]' derivation='None' name='[none:de:nk]' pivot='key' type='nominal' />
+            <column-instance column='[duree]' derivation='None' name='[none:duree:nk]' pivot='key' type='nominal' />
+            <column-instance column='[no1]' derivation='None' name='[none:no1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[res]' derivation='None' name='[none:res:nk]' pivot='key' type='nominal' />
+            <column-instance column='[resprod]' derivation='None' name='[none:resprod:nk]' pivot='key' type='nominal' />
+            <column-instance column='[typdescr]' derivation='None' name='[none:typdescr:nk]' pivot='key' type='nominal' />
+            <column caption='Res' datatype='string' name='[res]' role='dimension' type='nominal' />
+            <column caption='Resprod' datatype='string' name='[resprod]' role='dimension' type='nominal' />
+            <column caption='Typdescr' datatype='string' name='[typdescr]' role='dimension' type='nominal' />
+            <column-instance column='[datdif]' derivation='Year' name='[yr:datdif:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:Calculation_696650629407948801:nk]' filter-group='4'>
+            <groupfilter function='member' level='[none:Calculation_696650629407948801:nk]' member='&quot;Oui&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:de:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:de:nk]' member='&quot;recherche scientifique&quot;' />
+              <groupfilter function='member' level='[none:de:nk]' member='&quot;témoignage&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:no1:nk]'>
+            <groupfilter function='level-members' level='[none:no1:nk]' user:ui-manual-selection='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[yr:datdif:ok]' filter-group='3'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[yr:datdif:ok]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1954' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1958' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1965' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1966' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1967' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1968' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1969' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1971' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1972' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1973' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1974' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1975' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1976' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1977' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1978' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1979' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1980' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1981' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1982' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1983' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1984' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1985' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1986' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1987' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1988' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1989' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1990' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1991' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1992' />
+                <groupfilter function='member' level='[yr:datdif:ok]' member='1993' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[yr:datdif:ok]</column>
+            <column>[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:no1:nk]</column>
+            <column>[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:de:nk]</column>
+            <column>[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:Calculation_696650629407948801:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:no1:nk] / ([federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:typdescr:nk] / ([federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:duree:nk] / ([federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:res:nk] / [federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:resprod:nk]))))</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{D7CFD441-4E10-4ACE-9B48-06B659AF65D7}' />
+    </worksheet>
+    <worksheet name='data pour iramuteq'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Extrait corpus11_ovni+ (Connexions multiples)' name='federated.0r57vmr1pu8w6q1cnzvqg1j81pez' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0r57vmr1pu8w6q1cnzvqg1j81pez'>
+            <column caption='choix res ou resprod' datatype='string' name='[Calculation_193091896168726532]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF ISNULL([res]) AND ISNULL([resprod]) THEN NULL&#13;&#10;ELSEIF ISNULL([res]) THEN [resprod]&#13;&#10;ELSEIF ISNULL([resprod]) THEN [res]&#13;&#10;ELSE [res]&#13;&#10;END' />
+            </column>
+            <column caption='keyword sans parenthese et que le premier' datatype='string' name='[Calculation_193091896178548741]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='REGEXP_EXTRACT([de], &apos;([^()]*)&apos;)' />
+            </column>
+            <column caption='Séparer les mediamat' datatype='string' name='[Séparer les genre  (copie)_193091896165081088]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF CONTAINS([mediamat], &quot;,&quot;) THEN&#13;&#10;    LEFT([mediamat], FIND([mediamat], &quot;,&quot;) - 1)&#13;&#10;ELSE&#13;&#10;    [mediamat]&#13;&#10;END' />
+            </column>
+            <column caption='séparer les public' datatype='string' name='[Séparer les genre  (copie)_193091896165986306]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF CONTAINS([public], &quot;,&quot;) THEN&#13;&#10;    LEFT([public], FIND([public], &quot;,&quot;) - 1)&#13;&#10;ELSE&#13;&#10;    [public]&#13;&#10;END' />
+            </column>
+            <column caption='Base Id' datatype='string' name='[base_id]' role='dimension' type='nominal' />
+            <column caption='Ch' datatype='string' name='[ch]' role='dimension' type='nominal' />
+            <column caption='Datdif' datatype='date' datatype-customized='true' name='[datdif]' role='dimension' type='ordinal' />
+            <column caption='De' datatype='string' name='[de]' role='dimension' type='nominal' />
+            <column caption='Mediamat' datatype='string' name='[mediamat]' role='dimension' type='nominal' />
+            <column caption='Notice' datatype='string' name='[no1]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_193091896168726532]' derivation='None' name='[none:Calculation_193091896168726532:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_193091896178548741]' derivation='None' name='[none:Calculation_193091896178548741:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Séparer les genre  (copie)_193091896165081088]' derivation='None' name='[none:Séparer les genre  (copie)_193091896165081088:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Séparer les genre  (copie)_193091896165986306]' derivation='None' name='[none:Séparer les genre  (copie)_193091896165986306:nk]' pivot='key' type='nominal' />
+            <column-instance column='[base_id]' derivation='None' name='[none:base_id:nk]' pivot='key' type='nominal' />
+            <column-instance column='[ch]' derivation='None' name='[none:ch:nk]' pivot='key' type='nominal' />
+            <column-instance column='[datdif]' derivation='None' name='[none:datdif:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[de]' derivation='None' name='[none:de:nk]' pivot='key' type='nominal' />
+            <column-instance column='[no1]' derivation='None' name='[none:no1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[res]' derivation='None' name='[none:res:nk]' pivot='key' type='nominal' />
+            <column-instance column='[resprod]' derivation='None' name='[none:resprod:nk]' pivot='key' type='nominal' />
+            <column-instance column='[typdescr]' derivation='None' name='[none:typdescr:nk]' pivot='key' type='nominal' />
+            <column caption='Public' datatype='string' name='[public]' role='dimension' type='nominal' />
+            <column caption='Res' datatype='string' name='[res]' role='dimension' type='nominal' />
+            <column caption='Resprod' datatype='string' name='[resprod]' role='dimension' type='nominal' />
+            <column caption='Typdescr' datatype='string' name='[typdescr]' role='dimension' type='nominal' />
+            <column-instance column='[datdif]' derivation='Year' name='[yr:datdif:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:Séparer les genre  (copie)_193091896165081088:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Séparer les genre  (copie)_193091896165081088:nk]' />
+              <groupfilter function='member' level='[none:Séparer les genre  (copie)_193091896165081088:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:Séparer les genre  (copie)_193091896165986306:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Séparer les genre  (copie)_193091896165986306:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Séparer les genre  (copie)_193091896165986306:nk]' member='%null%' />
+                <groupfilter function='member' level='[none:Séparer les genre  (copie)_193091896165986306:nk]' member='&quot;A&quot;' />
+                <groupfilter function='member' level='[none:Séparer les genre  (copie)_193091896165986306:nk]' member='&quot;B&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:datdif:qk]' included-values='in-range'>
+            <min>#1994-01-01#</min>
+            <max>#2023-12-31#</max>
+          </filter>
+          <filter class='categorical' column='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:de:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:de:nk]' />
+              <groupfilter function='member' level='[none:de:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:res:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:res:nk]' />
+              <groupfilter function='empty-level' member='[none:res:nk]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:resprod:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:resprod:nk]' />
+              <groupfilter function='member' level='[none:resprod:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:typdescr:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:typdescr:nk]' />
+              <groupfilter function='member' level='[none:typdescr:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:datdif:qk]</column>
+            <column>[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:Séparer les genre  (copie)_193091896165081088:nk]</column>
+            <column>[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:Séparer les genre  (copie)_193091896165986306:nk]</column>
+            <column>[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:typdescr:nk]</column>
+            <column>[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:res:nk]</column>
+            <column>[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:resprod:nk]</column>
+            <column>[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:de:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Polygon' />
+          </pane>
+        </panes>
+        <rows>([federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:no1:nk] / ([federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:Calculation_193091896178548741:nk] / ([federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:base_id:nk] / ([federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:ch:nk] / ([federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[yr:datdif:ok] / ([federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:Séparer les genre  (copie)_193091896165081088:nk] / ([federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:Séparer les genre  (copie)_193091896165986306:nk] / ([federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:typdescr:nk] / [federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:Calculation_193091896168726532:nk]))))))))</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{33E2B485-7317-448C-BBCE-67A21B86139A}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Filtre ovni extraterrestre + rech et tem'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card param='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:ch:nk]' type='filter' />
+            <card param='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:de:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{16C876EC-736C-4228-B4F1-174FD1418FD1}' />
+    </window>
+    <window class='worksheet' name='Notice recherche scientifique et témoignage'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card mode='typeinlist' param='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:de:nk]' type='filter' />
+            <card mode='typeinlist' param='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:no1:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{03B24323-46F4-45D5-B42D-3D387843935C}' />
+    </window>
+    <window class='worksheet' name='Notice recherche ovni et ext'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card mode='typeinlist' param='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:de:nk]' type='filter' />
+            <card mode='typeinlist' param='[federated.0r57vmr1pu8w6q1cnzvqg1j81pez].[none:no1:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{300125EF-D9D2-4EA2-99B2-50D4D7A4EA32}' />
+    </window>
+    <window class='worksheet' name='Genre et notice, filtre minimum 100 '>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7173EDEA-5382-4363-B2ED-A5B842AC2B8A}' />
+    </window>
+    <window class='worksheet' maximized='true' name='data pour iramuteq'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BC426DDD-E14E-4081-B7C4-D63D337F7994}' />
+    </window>
+  </windows>
+</workbook>
