@@ -1,0 +1,34 @@
+Quelles modifications sur le jeu de données final 
+
+- Selection des colonnes pertinentes : 
+
+- Nettoyage : 
+
+Durée : 
+- exclusion des valeurs aberrantes : 00:00 et supérieur à 3H
+
+Genre : 
+occurence notice - variable 
+- regroupement des genres en catégories plus générales 
+- exclusion de certaines genres quand notices < 50 : adaptation, brève, comédie de situation, court métrage, création audiovisuelle, débat, document à base d'archives, extrait, interview entretien, viedeo clip, spectacle tv, témoignage, rétrospective, reconstitution, récit portrait, tout images, tranche horaire, jeu, making of, micro trottoir, message info 
+
+Mediamat : 
+occurence notice - variable 
+- filtre à au moins 25 notices 
+- regroupement des mediamat en plusieurs catégories
+
+Public :
+occurence notice - variable 
+- filtre à au moins 40 notices 
+- regroupement des publics en plusieurs catégories
+
+Création de decennie : 
+
+Resumé : 
+- formule : IF ISNULL([Res]) AND ISNULL([Resprod]) THEN NULL
+ELSEIF ISNULL([Res]) THEN [Resprod]
+ELSEIF ISNULL([Resprod]) THEN [Res]
+ELSE [Res]
+END
+- faire en sorte d'avoir au moins un résumé pour chaque notice et d'en garder un si les deux sont remplis pour avoir une seule catégorie
+- garde que les notices ou dans la description il y a au moins ovni ou extraterrestre dedans

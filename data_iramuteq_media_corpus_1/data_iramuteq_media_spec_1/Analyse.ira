@@ -1,0 +1,14 @@
+[spec]
+uuid = 441163a0-5b0b-4dae-a8af-6d0f05f50764
+indice = hypergeo
+pathout = C:\Users\UFR PHILLIA\Documents\MIP Ovni\data_iramuteq_media_corpus_1\data_iramuteq_media_spec_1
+clnb = 7
+encoding = cp1252
+mineff = 10
+lem = 1
+time = 0h 0m 3s
+typeformes = 1
+ira = C:\Users\UFR PHILLIA\Documents\MIP Ovni\data_iramuteq_media_corpus_1\data_iramuteq_media_spec_1\Analyse.ira
+corpus = f1eea801-8945-4010-aa3d-efc2c8478d9a
+type = spec
+name = data_iramuteq_media_spec_1
