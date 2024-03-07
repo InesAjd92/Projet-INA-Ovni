@@ -244,12 +244,24 @@ dataframe2iramuteq <- function(data, filename) {
 
 # Mots à supprimer dans les descriptions 
 
-mots_a_supprimer <- c("journaliste", "journalistes", "ovni", "ovnis", "extraterrestre", "extraterrestres", "source", "imedia", "sources", "actualité", "actualités", "france", "chroniqueur", "chroniqueurs", "chronique", "entretien", "emission", "som", "sommaire", "programme", "emissions", "auteur", "auteurs","catherine", "pauline", "jean", "michel", "bill", "sacha", "paul", "emily", "nathan", "chloe", "christopher", "erika", "sofia", "sophia", "mokrani", "nadia", "daam", "patrick", "marc", "mouloud", "interview", "interviews", "roger", "lestrade", "alien", "aliens", "tele", "tv", "television", "televisions", "teles", "chaine", "chaines", "tf1", "M6", "publicité", "publicités", "direct", "directs", "maire", "maires", "nathalie", "presse", "press", "presses", "directeur", "directeurs", "européen", "europe", "européens", "renaud", "declaration", "declarations", "macron", "quantar", "melanchon", "francais", "français", "camille", "tendance", "tendances", "mode", "clique", "cliques", "recommandation", "recommandations", "prescritpions", "prescription")
+mots_a_supprimer <- c("journaliste","sophie", "recette", "recettes", "david", "rubrique", "rubriques", "martin", "illustré", "brigitte", "robin", "batman", "teen", "ado", "ados", "gotham", "jump", "city", "titan", "cirque", "adolescent", "adolescents", "aventure", "tropical", "île", "tamaran", "starfire", "raven", "prince", "animation", "rythmer", "rythmé", "série", "séries","serie","series","propos", "laurent", "emission", "emissions", "guy", "canne", "cannes", "album", "albums", "salvatore", "ademo", "adamo", "chanson", "chansons", "musical", "musicaux", "generation", "generations", "tube", "tubes", "chanteur", "chanteurs", "chanteuse", "chanteuses", 'mannequin', "mannequins", "imion", "carriere", "carrieres", "souchon", "hit", "hit80", "gainsbourg", "chanter", "sarah", "bfm", "JT", "jt", "complilation", "compilations", "journal", "candidats", "candidat", "emmanuel", "zemmour", "macron", "eric", "elie", "semmoun", "collège", "collèges", "pain", "ministre", "ministres", "politique", "candidat", "candidats", "presidentielle", "lr", "election", "elections", "lepen", "sport", "vilain", "canard", "jeu", "rick", "morty", "jane", "sprirou", "mulder", "chalumeau", "belver", "julien", "ethienne", "carbonner", "maia", "bristielle", "antoine", "edition", "depétrini", "watrin", "lilia", "hassaine", "chaouch", "ahmed", "ukrainien", "valentin", "marian", "babich", "azzedine", "traducteur", "dettinger", "christophe", "police", "secretaire", "depute", "deputes", "gilet", "jaune", "general", "lrem", "pomrart", "laetitia","oise", "dewali", "perquisition", "vigi", "vigier", "syndicat","solère", "seines", "langlois" , "hugues","gitan","journalistes", "ovni", "ovnis", "extraterrestre", "extraterrestres", "source", "imedia", "sources", "actualité", "actualités", "france", "chroniqueur", "iran", "fatou","maroquinnerie", "politique", "geopolitique", "diplomatie", "frederic", "sophie", "album", "chanson", "chansons", "comédien", "comédiens", "chroniqueurs", "chronique", "entretien", "emission", "som", "sommaire", "programme", "emissions", "auteur", "auteurs","catherine", "pauline", "jean", "michel", "bill", "sacha", "paul", "emily", "nathan", "chloe", "christopher", "erika", "sofia", "sophia", "mokrani", "nadia", "daam", "patrick", "marc", "mouloud", "interview", "interviews", "roger", "lestrade", "alien", "aliens", "tele", "tv", "television", "televisions", "teles", "chaine", "chaines", "tf1", "M6", "publicité", "publicités", "direct", "directs", "maire", "maires", "nathalie", "presse", "press", "presses", "directeur", "directeurs", "européen", "europe", "européens", "renaud", "declaration", "declarations", "macron", "quantar", "melanchon", "francais", "français", "camille", "tendance", "tendances", "mode", "clique", "cliques", "recommandation", "recommandations", "prescritpions", "prescription")  
+
 
 # Appliquer gsub()
 data_iramuteq$resume <- gsub(paste(mots_a_supprimer, collapse="|"), "", data_iramuteq$resume, ignore.case = TRUE)
 
 # data en format iramuteq
 
-dataframe2iramuteq(data_iramuteq, "data_iramuteq_media.txt")
+dataframe2iramuteq(data_iramuteq, "data_iramuteq_media_clean.txt")
 
+
+library(tidyverse)
+mots_a_supprimer2 <- c("di", "icke", "ita", "edge", "cutting", "david", "sub", "altra", "the", "www", "https", "http", "com", "franã", "â", "ã", "rã", "vã", "dã", "prã", "mã", "tã", "cinã", "lã", "sociã", "nousã", "quatriã", "enfantsã", "sociã", "extraterrestres", "extraterrestre", "ovni", "ovnis", "alien", "aliens", "alieno", "alieni", "alienígenas", "alienígena", "hd", "HD", "semaine", "semaines", "nousã", "rajouter", "quatriã", "enfantsã", "sociã", "trouver", "nomã", "phã", "r", "btlv", "res", "poser", "quotidiennement", "poser", "devenir", "cas", "YouTube", "watch", "wat", "aise", "version", "channels", "channel", "vidã", "nhttps", "novni") 
+
+# Appliquer gsub()
+notices_web_descriptions_iramuteq $Description <- gsub(paste(mots_a_supprimer2, collapse="|"), "", notices_web_descriptions_iramuteq$Description, ignore.case = TRUE)
+
+# data en format iramuteq
+
+dataframe2iramuteq(notices_web_descriptions_iramuteq, "data_iramuteq_web_description.txt")
+dataframe2iramuteq(notices_web_titres_iramuteq, "notices_web_titres_iramuteq.txt")

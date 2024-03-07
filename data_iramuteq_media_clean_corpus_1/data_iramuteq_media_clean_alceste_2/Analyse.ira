@@ -1,0 +1,25 @@
+[alceste]
+mincl = 0
+encoding = cp1252
+classif_mode = 1
+mode.patate = 0
+nbforme_uce = 0
+expressions = 1
+pathout = C:\Users\UFR PHILLIA\Documents\data_iramuteq_media_clean_corpus_1\data_iramuteq_media_clean_alceste_2
+uuid = b69f2aeb-39a7-4d52-b8be-869fc26025bb
+svdmethod = irlba
+nbactives = 1849
+ira = C:\Users\UFR PHILLIA\Documents\data_iramuteq_media_clean_corpus_1\data_iramuteq_media_clean_alceste_2\Analyse.ira
+corpus = ed68c9f8-fc0b-45f7-a548-01fa79e58439
+type = alceste
+clnb = 6
+minforme = 2
+lem = 1
+eff_min_forme = 3
+nbcl = 4
+max_actives = 3000
+name = data_iramuteq_media_clean_alceste_2
+nbcl_p1 = 20
+time = 0h 1m 41s
+tailleuc1 = 12
+tailleuc2 = 14

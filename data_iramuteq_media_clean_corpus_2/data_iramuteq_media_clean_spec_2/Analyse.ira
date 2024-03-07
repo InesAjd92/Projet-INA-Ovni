@@ -1,0 +1,14 @@
+[spec]
+uuid = 70d20416-f8d8-490d-b12b-99d8967be883
+indice = hypergeo
+pathout = C:\Users\UFR PHILLIA\Documents\data_iramuteq_media_clean_corpus_2\data_iramuteq_media_clean_spec_2
+clnb = 7
+encoding = cp1252
+mineff = 10
+lem = 1
+time = 0h 0m 2s
+typeformes = 1
+ira = C:\Users\UFR PHILLIA\Documents\data_iramuteq_media_clean_corpus_2\data_iramuteq_media_clean_spec_2\Analyse.ira
+corpus = efe40c5b-ae36-4f6d-be58-1d682e1d9276
+type = spec
+name = data_iramuteq_media_clean_spec_2
