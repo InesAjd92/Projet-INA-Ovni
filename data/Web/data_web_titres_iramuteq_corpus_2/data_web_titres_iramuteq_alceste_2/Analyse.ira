@@ -1,0 +1,25 @@
+[alceste]
+mincl = 0
+encoding = UTF-8
+classif_mode = 1
+mode.patate = 0
+nbforme_uce = 0
+expressions = 1
+pathout = /Users/aminakihal/Desktop/Uni/SEMESTRE 10/MIP/DATA/Web/data_web_titres_iramuteq_corpus_2/data_web_titres_iramuteq_alceste_2
+uuid = 766229bc-34e5-409e-b155-70349ed37f22
+svdmethod = irlba
+nbactives = 910
+ira = /Users/aminakihal/Desktop/Uni/SEMESTRE 10/MIP/DATA/Web/data_web_titres_iramuteq_corpus_2/data_web_titres_iramuteq_alceste_2/Analyse.ira
+corpus = e440903c-a683-4a81-b8a8-0615ecb62504
+type = alceste
+clnb = 6
+minforme = 2
+lem = 1
+eff_min_forme = 3
+nbcl = 4
+max_actives = 3000
+name = data_web_titres_iramuteq_alceste_2
+nbcl_p1 = 25
+time = 0h 0m 33s
+tailleuc1 = 14
+tailleuc2 = 14

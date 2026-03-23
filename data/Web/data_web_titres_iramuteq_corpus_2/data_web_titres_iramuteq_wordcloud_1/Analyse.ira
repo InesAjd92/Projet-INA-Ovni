@@ -1,0 +1,20 @@
+[wordcloud]
+graphout = /Users/aminakihal/Desktop/Uni/SEMESTRE 10/MIP/DATA/Web/data_web_titres_iramuteq_corpus_2/data_web_titres_iramuteq_wordcloud_1/nuage_1.png
+col_text = (0, 0, 0, 255)
+pathout = /Users/aminakihal/Desktop/Uni/SEMESTRE 10/MIP/DATA/Web/data_web_titres_iramuteq_corpus_2/data_web_titres_iramuteq_wordcloud_1
+name = data_web_titres_iramuteq_wordcloud_1
+mincex = 0.5
+encoding = UTF-8
+maxcex = 5.0
+maxword = 600
+lem = 1
+height = 800
+col_bg = (255, 255, 255, 255)
+width = 800
+svg = 0
+mode = 0
+time = 0h 0m 14s
+ira = /Users/aminakihal/Desktop/Uni/SEMESTRE 10/MIP/DATA/Web/data_web_titres_iramuteq_corpus_2/data_web_titres_iramuteq_wordcloud_1/Analyse.ira
+corpus = e440903c-a683-4a81-b8a8-0615ecb62504
+type = wordcloud
+uuid = 2b5216be-36a3-4513-a297-12e8ec5503fb

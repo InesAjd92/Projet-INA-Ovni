@@ -1,0 +1,3 @@
+dendro1.png;dendrogramme à partir de chd1
+arbre_1.png;chd1
+/Users/aminakihal/Desktop/Uni/SEMESTRE 10/MIP/DATA/Web/data_web_titres_iramuteq_corpus_5/data_web_titres_iramuteq_alceste_3/dendrogramme_1.png;Dendrogramme CHD1 - phylogram
