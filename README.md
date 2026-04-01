@@ -1,16 +1,14 @@
-# Projet-INA-Ovni
-
-Analyse des représentations médiatiques des OVNI et extraterrestres dans les médias français depuis 1967
+# Analyse des représentations médiatiques des OVNI et extraterrestres dans les médias français depuis 1967
 
 [Licence MIT](#) | [R](https://www.r-project.org/) | [IRaMuTeQ](http://www.iramuteq.org/)
 
 ---
 
 ## Contexte
-Ce projet fait partie du Séminaire MIP — Explorations numériques des archives INA, en collaboration avec EUR ArTec, Université Paris Nanterre.  
+Ce projet fait partie du Séminaire MIP - Explorations numériques des archives INA, en collaboration avec EUR ArTec, Université Paris Nanterre.  
 
 Sujet n°11 : "La vie, entre controverses et défis"  
-Projet collectif réalisé par un groupe de 4 étudiants en sprint, encadré par Camille Claverie et Marta Severo.
+Projet encadré par Camille Claverie et Marta Severo.
 
 L’objectif : analyser un corpus multimédia de 5 328 notices INA sur les OVNI et extraterrestres à l’aide de IRaMuTeQ et de la classification de Reinert.
 
@@ -35,7 +33,7 @@ L’objectif : analyser un corpus multimédia de 5 328 notices INA sur les OVNI 
 
 - Corpus initial : 5 328 notices
 - Corpus filtré : 990 notices
-- Période : 1967 → 2024
+- Période : 1967 à 2024
 
 ---
 
