@@ -1,9 +1,5 @@
 # Analyse des représentations médiatiques des OVNI et extraterrestres dans les médias français depuis 1967
 
-[Licence MIT](#) | [R](https://www.r-project.org/) | [IRaMuTeQ](http://www.iramuteq.org/)
-
----
-
 ## Contexte
 Ce projet fait partie du Séminaire MIP - Explorations numériques des archives INA, en collaboration avec EUR ArTec, Université Paris Nanterre.  
 
