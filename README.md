@@ -71,8 +71,7 @@ Technologies : R + IRaMuTeQ + Archives INA + Textométrie
 ---
 
 ## Liens
-[- Voir l'article journalistique et le détail des recherches. 
-](https://github.com/InesAjd92/Projet-INA-Ovni/edit/main/README.md#:~:text=output-,MIP,-OVNIS%20%26%20Extraterrestres%20%2D%20Article)
+[Voir l'article PDF](https://github.com/InesAjd92/Projet-INA-Ovni/blob/main/output/MIP%20OVNIS%20%26%20Extraterrestres%20-%20Article%20journalistique.pdf)
 ---
 
 ## Licence
